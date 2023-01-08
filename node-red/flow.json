@@ -1,0 +1,1592 @@
+[
+    {
+        "id": "e504f309a60446d1",
+        "type": "tab",
+        "label": "Calendar MQTT Publish",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "acd4a96078b2b873",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "66aba38109734b70",
+            "b2671440e27de430",
+            "4d29cd28e4fc324f"
+        ],
+        "x": 594,
+        "y": 179,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "45c5e6cc884a53b7",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e10f50f9df54e803",
+            "b7b48464abc2131a",
+            "91d87215d2f6da13"
+        ],
+        "x": 574,
+        "y": -1,
+        "w": 532,
+        "h": 82
+    },
+    {
+        "id": "1a6c2889823f13f5",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1b13ca9373586619",
+            "f6d01e9d1ab5c3b2",
+            "b9cb8ccaa12e1ebb",
+            "521006c57fc66c9d",
+            "d289c88dac15287c",
+            "21f2cae54ef42f91",
+            "64bff6a12e323493",
+            "36935c46a7592757",
+            "2dc88a8ffdf47888"
+        ],
+        "x": 1154,
+        "y": 239,
+        "w": 492,
+        "h": 342
+    },
+    {
+        "id": "0965899628e08fb3",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "36262b076890a3c4",
+            "342e2f7bd5586d15",
+            "8aed31b68454354a",
+            "5b6f1bebe8e62583",
+            "1044ed1df3c5080d",
+            "0bc1125326505fbb",
+            "e4c811363278a343",
+            "0114c4f12ed13493"
+        ],
+        "x": 1994,
+        "y": 459,
+        "w": 492,
+        "h": 282
+    },
+    {
+        "id": "82d22becdb1d36ce",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1debfe13f9a7af73",
+            "d60ca6291fa5e631",
+            "3e53a8c8042c3a8f",
+            "e8a83aea547df84d",
+            "ec96836b42282fb1",
+            "986dca596a0b9de0",
+            "b0deeaf01c28e4a9",
+            "cbaf347976a6c0ff",
+            "c109f4c80ea30f6c"
+        ],
+        "x": 2494,
+        "y": 479,
+        "w": 1252,
+        "h": 242
+    },
+    {
+        "id": "bd89b2070cb520f7",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3f79c6ec58d8ac29",
+            "331ecd9373815050",
+            "dadb84acfae818e7"
+        ],
+        "x": 1674,
+        "y": 319,
+        "w": 292,
+        "h": 162
+    },
+    {
+        "id": "4b5d90fb152a8c70",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "88c5d0a1ac1f9c12",
+            "c34c0f7a44facfa2",
+            "cc2f4bbb99c0821d",
+            "7aeb631b996b5dc8",
+            "6697bb2dea4c6696",
+            "323ccf085deb4d38",
+            "97816fc4a2862da7",
+            "5dd548917c8d5937",
+            "7c7074a10f8ed9f6",
+            "fbae82d50c998862"
+        ],
+        "x": 14,
+        "y": 59,
+        "w": 552,
+        "h": 362
+    },
+    {
+        "id": "fbae82d50c998862",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "e10f50f9df54e803",
+                "4d29cd28e4fc324f",
+                "b2671440e27de430"
+            ]
+        ]
+    },
+    {
+        "id": "2dc88a8ffdf47888",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "x": 1620,
+        "y": 500,
+        "wires": [
+            [
+                "36262b076890a3c4",
+                "331ecd9373815050"
+            ]
+        ]
+    },
+    {
+        "id": "0114c4f12ed13493",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "x": 2460,
+        "y": 600,
+        "wires": [
+            [
+                "1debfe13f9a7af73"
+            ]
+        ]
+    },
+    {
+        "id": "9b00ac010d687dc2",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "x": 1140,
+        "y": 600,
+        "wires": [
+            [
+                "36262b076890a3c4"
+            ]
+        ]
+    },
+    {
+        "id": "88c5d0a1ac1f9c12",
+        "type": "inject",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "",
+        "props": [
+            {
+                "p": "timestamp",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 100,
+        "wires": [
+            [
+                "c34c0f7a44facfa2"
+            ]
+        ]
+    },
+    {
+        "id": "c34c0f7a44facfa2",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "Target is tomorrow",
+        "rules": [
+            {
+                "t": "set",
+                "p": "target",
+                "pt": "msg",
+                "to": "tomorrow",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 100,
+        "wires": [
+            [
+                "6697bb2dea4c6696"
+            ]
+        ]
+    },
+    {
+        "id": "cc2f4bbb99c0821d",
+        "type": "inject",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "",
+        "props": [
+            {
+                "p": "timestamp",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "c34c0f7a44facfa2",
+                "7aeb631b996b5dc8"
+            ]
+        ]
+    },
+    {
+        "id": "7aeb631b996b5dc8",
+        "type": "delay",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 160,
+        "y": 220,
+        "wires": [
+            [
+                "323ccf085deb4d38",
+                "97816fc4a2862da7"
+            ]
+        ]
+    },
+    {
+        "id": "6697bb2dea4c6696",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "Timestamp to Date",
+        "topic": "",
+        "input": "timestamp",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY-MM-DD",
+        "locale": "C",
+        "output": "timestamp_date",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 430,
+        "y": 220,
+        "wires": [
+            [
+                "fbae82d50c998862"
+            ]
+        ]
+    },
+    {
+        "id": "323ccf085deb4d38",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "Target is today",
+        "rules": [
+            {
+                "t": "set",
+                "p": "target",
+                "pt": "msg",
+                "to": "today",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 380,
+        "wires": [
+            [
+                "6697bb2dea4c6696"
+            ]
+        ]
+    },
+    {
+        "id": "97816fc4a2862da7",
+        "type": "delay",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "30",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 200,
+        "y": 260,
+        "wires": [
+            [
+                "7c7074a10f8ed9f6"
+            ]
+        ]
+    },
+    {
+        "id": "5dd548917c8d5937",
+        "type": "inject",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "",
+        "props": [
+            {
+                "p": "timestamp",
+                "v": "",
+                "vt": "date"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 380,
+        "wires": [
+            [
+                "323ccf085deb4d38"
+            ]
+        ]
+    },
+    {
+        "id": "7c7074a10f8ed9f6",
+        "type": "api-call-service",
+        "z": "e504f309a60446d1",
+        "g": "4b5d90fb152a8c70",
+        "name": "Display Reload",
+        "server": "5f63a71b.3efb08",
+        "version": 1,
+        "debugenabled": false,
+        "service_domain": "button",
+        "service": "press",
+        "entityId": "button.reload_display",
+        "data": "",
+        "dataType": "json",
+        "mergecontext": "",
+        "output_location": "payload",
+        "output_location_type": "none",
+        "mustacheAltTags": false,
+        "x": 240,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e10f50f9df54e803",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "45c5e6cc884a53b7",
+        "name": "Format Agenda Date",
+        "topic": "",
+        "input": "timestamp",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "0",
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "ddd, Do MMM",
+        "locale": "C",
+        "output": "payload",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 700,
+        "y": 40,
+        "wires": [
+            [
+                "b7b48464abc2131a"
+            ]
+        ]
+    },
+    {
+        "id": "4d29cd28e4fc324f",
+        "type": "ical-upcoming",
+        "z": "e504f309a60446d1",
+        "g": "acd4a96078b2b873",
+        "confignode": "56a457677c5bc15d",
+        "timeout": "",
+        "timeoutUnits": "days",
+        "cron": "",
+        "name": "Get Events Today and Tomorrow",
+        "offsettype": "",
+        "offset": "",
+        "offsetUnitstype": "",
+        "offsetUnits": "",
+        "eventtypes": "events",
+        "eventtypestype": "eventtypes",
+        "calendar": "",
+        "calendartype": "str",
+        "triggertype": "trigger",
+        "trigger": "always",
+        "timezone": "",
+        "timezonetype": "str",
+        "dateformat": "{ \"timeStyle\": \"short\", \"dateStyle\": \"short\" }",
+        "dateformattype": "json",
+        "language": "en",
+        "languagetype": "language",
+        "filterProperty": "eventStart",
+        "filterPropertytype": "filterProperty",
+        "filterOperator": "between",
+        "filterOperatortype": "filterOperator",
+        "filtertype": "str",
+        "filter2type": "str",
+        "filter2": "",
+        "filter": "",
+        "checkall": false,
+        "endpreview": "",
+        "endpreviewUnits": "",
+        "previewtype": "num",
+        "preview": "2",
+        "previewUnitstype": "previewUnits",
+        "previewUnits": "days",
+        "pastviewtype": "num",
+        "pastview": "1",
+        "pastviewUnits": "days",
+        "pastviewUnitstype": "pastviewUnits",
+        "x": 750,
+        "y": 220,
+        "wires": [
+            [
+                "b2671440e27de430"
+            ]
+        ]
+    },
+    {
+        "id": "b2671440e27de430",
+        "type": "trigger",
+        "z": "e504f309a60446d1",
+        "g": "acd4a96078b2b873",
+        "name": "15s Timeout for Calendar",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "payl",
+        "duration": "15",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "topic",
+        "topic": "target",
+        "outputs": 1,
+        "x": 810,
+        "y": 280,
+        "wires": [
+            [
+                "66aba38109734b70"
+            ]
+        ]
+    },
+    {
+        "id": "b7b48464abc2131a",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "45c5e6cc884a53b7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "\"/calendar/\" & msg.target & \"/date\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 890,
+        "y": 40,
+        "wires": [
+            [
+                "91d87215d2f6da13"
+            ]
+        ]
+    },
+    {
+        "id": "66aba38109734b70",
+        "type": "switch",
+        "z": "e504f309a60446d1",
+        "g": "acd4a96078b2b873",
+        "name": "Check Timeout",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nempty"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1020,
+        "y": 280,
+        "wires": [
+            [
+                "1b13ca9373586619"
+            ],
+            [
+                "9b00ac010d687dc2"
+            ]
+        ]
+    },
+    {
+        "id": "91d87215d2f6da13",
+        "type": "mqtt out",
+        "z": "e504f309a60446d1",
+        "g": "45c5e6cc884a53b7",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ae7bb482f9921645",
+        "x": 1030,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "1b13ca9373586619",
+        "type": "split",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1230,
+        "y": 280,
+        "wires": [
+            [
+                "f6d01e9d1ab5c3b2"
+            ]
+        ]
+    },
+    {
+        "id": "36262b076890a3c4",
+        "type": "join",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "Combine Events",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "3",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2100,
+        "y": 600,
+        "wires": [
+            [
+                "342e2f7bd5586d15",
+                "8aed31b68454354a",
+                "5b6f1bebe8e62583",
+                "1044ed1df3c5080d",
+                "0bc1125326505fbb",
+                "e4c811363278a343"
+            ]
+        ]
+    },
+    {
+        "id": "f6d01e9d1ab5c3b2",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.duration",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.durationSeconds",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.uid",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.isRecurring",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.datetype",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.originalEvent",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.countdown",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.calendarName",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.on",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.date",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.rrule",
+                "pt": "msg"
+            },
+            {
+                "t": "delete",
+                "p": "payload.rruleText",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1430,
+        "y": 280,
+        "wires": [
+            [
+                "b9cb8ccaa12e1ebb"
+            ]
+        ]
+    },
+    {
+        "id": "3f79c6ec58d8ac29",
+        "type": "trigger",
+        "z": "e504f309a60446d1",
+        "g": "bd89b2070cb520f7",
+        "name": "Timeout for Events",
+        "op1": "",
+        "op2": "",
+        "op1type": "nul",
+        "op2type": "pay",
+        "duration": "5",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "topic",
+        "topic": "target",
+        "outputs": 1,
+        "x": 1850,
+        "y": 400,
+        "wires": [
+            [
+                "36262b076890a3c4"
+            ]
+        ]
+    },
+    {
+        "id": "342e2f7bd5586d15",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[0]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 500,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "8aed31b68454354a",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[2]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "2",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 580,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "5b6f1bebe8e62583",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[1]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 540,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "1044ed1df3c5080d",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[3]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "3",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 620,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "0bc1125326505fbb",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[4]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "4",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 660,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "e4c811363278a343",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "",
+        "rules": [
+            {
+                "t": "move",
+                "p": "payload[5]",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "index",
+                "pt": "msg",
+                "to": "5",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2320,
+        "y": 700,
+        "wires": [
+            [
+                "0114c4f12ed13493"
+            ]
+        ]
+    },
+    {
+        "id": "b9cb8ccaa12e1ebb",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "Start to Timestamp",
+        "topic": "",
+        "input": "payload.eventStart",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "x",
+        "locale": "C",
+        "output": "eventStart_timestamp",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 1430,
+        "y": 320,
+        "wires": [
+            [
+                "21f2cae54ef42f91"
+            ]
+        ]
+    },
+    {
+        "id": "331ecd9373815050",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "bd89b2070cb520f7",
+        "name": "Add Trigger Reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 440,
+        "wires": [
+            [
+                "3f79c6ec58d8ac29"
+            ]
+        ]
+    },
+    {
+        "id": "dadb84acfae818e7",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "bd89b2070cb520f7",
+        "name": "Remove Payload",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1790,
+        "y": 360,
+        "wires": [
+            [
+                "3f79c6ec58d8ac29"
+            ]
+        ]
+    },
+    {
+        "id": "521006c57fc66c9d",
+        "type": "switch",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "Event Starts Today",
+        "property": "timestamp_date",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "eventStart_date",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1490,
+        "y": 540,
+        "wires": [
+            [
+                "2dc88a8ffdf47888"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "d289c88dac15287c",
+        "type": "switch",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "Event is On",
+        "property": "timestamp",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "eventStart_timestamp",
+                "vt": "msg",
+                "v2": "eventEnd_timestamp",
+                "v2t": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1450,
+        "y": 480,
+        "wires": [
+            [
+                "2dc88a8ffdf47888"
+            ],
+            [
+                "521006c57fc66c9d"
+            ]
+        ]
+    },
+    {
+        "id": "1debfe13f9a7af73",
+        "type": "switch",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "null"
+            },
+            {
+                "t": "true"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 2570,
+        "y": 600,
+        "wires": [
+            [
+                "d60ca6291fa5e631"
+            ],
+            [
+                "3e53a8c8042c3a8f"
+            ],
+            [
+                "e8a83aea547df84d"
+            ]
+        ]
+    },
+    {
+        "id": "21f2cae54ef42f91",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "End to Timestamp",
+        "topic": "",
+        "input": "payload.eventEnd",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "seconds",
+        "adjDir": "subtract",
+        "format": "x",
+        "locale": "C",
+        "output": "eventEnd_timestamp",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 1430,
+        "y": 360,
+        "wires": [
+            [
+                "36935c46a7592757"
+            ]
+        ]
+    },
+    {
+        "id": "64bff6a12e323493",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "End to Date",
+        "topic": "",
+        "input": "payload.eventEnd",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "seconds",
+        "adjDir": "subtract",
+        "format": "YYYY-MM-DD",
+        "locale": "C",
+        "output": "eventEnd_date",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 1410,
+        "y": 440,
+        "wires": [
+            [
+                "d289c88dac15287c",
+                "dadb84acfae818e7"
+            ]
+        ]
+    },
+    {
+        "id": "d60ca6291fa5e631",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.allDay",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.eventStart",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.eventEnd",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.summary",
+                "pt": "msg",
+                "to": "",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2800,
+        "y": 520,
+        "wires": [
+            [
+                "ec96836b42282fb1"
+            ]
+        ]
+    },
+    {
+        "id": "3e53a8c8042c3a8f",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.eventStart",
+                "pt": "msg",
+                "to": "ALL",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload.eventEnd",
+                "pt": "msg",
+                "to": "DAY",
+                "tot": "str"
+            },
+            {
+                "t": "delete",
+                "p": "payload.allDay",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3000,
+        "y": 600,
+        "wires": [
+            [
+                "ec96836b42282fb1"
+            ]
+        ]
+    },
+    {
+        "id": "e8a83aea547df84d",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "Remove allDay",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.allDay",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2800,
+        "y": 680,
+        "wires": [
+            [
+                "986dca596a0b9de0"
+            ]
+        ]
+    },
+    {
+        "id": "36935c46a7592757",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "1a6c2889823f13f5",
+        "name": "Start to Date",
+        "topic": "",
+        "input": "payload.eventStart",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "YYYY-MM-DD",
+        "locale": "C",
+        "output": "eventStart_date",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 1410,
+        "y": 400,
+        "wires": [
+            [
+                "64bff6a12e323493"
+            ]
+        ]
+    },
+    {
+        "id": "ec96836b42282fb1",
+        "type": "split",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "attribute",
+        "x": 3390,
+        "y": 520,
+        "wires": [
+            [
+                "c109f4c80ea30f6c"
+            ]
+        ]
+    },
+    {
+        "id": "986dca596a0b9de0",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "Format Start Date",
+        "topic": "",
+        "input": "payload.eventStart",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "HHmm",
+        "locale": "C",
+        "output": "payload.eventStart",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 2990,
+        "y": 680,
+        "wires": [
+            [
+                "b0deeaf01c28e4a9"
+            ]
+        ]
+    },
+    {
+        "id": "b0deeaf01c28e4a9",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "Format End Date",
+        "topic": "",
+        "input": "payload.eventEnd",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": 0,
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "HHmm",
+        "locale": "C",
+        "output": "payload.eventEnd",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 3190,
+        "y": 680,
+        "wires": [
+            [
+                "ec96836b42282fb1"
+            ]
+        ]
+    },
+    {
+        "id": "c109f4c80ea30f6c",
+        "type": "change",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "\"/calendar/\" & msg.target & \"/\" & msg.index & \"/\" & msg.attribute",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3530,
+        "y": 520,
+        "wires": [
+            [
+                "cbaf347976a6c0ff"
+            ]
+        ]
+    },
+    {
+        "id": "cbaf347976a6c0ff",
+        "type": "mqtt out",
+        "z": "e504f309a60446d1",
+        "g": "82d22becdb1d36ce",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "ae7bb482f9921645",
+        "x": 3670,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "5f63a71b.3efb08",
+        "type": "server",
+        "name": "Home Assistant"
+    },
+    {
+        "id": "56a457677c5bc15d",
+        "type": "ical-config",
+        "url": "https://calendar.google.com/calendar/ical/bluesheep.me.uk_bmlbmqr533f84d010228ijptb4%40group.calendar.google.com/private-21b0962d24b68492d44f7d0e3b539e33/basic.ics",
+        "caldav": "",
+        "caltype": "ical",
+        "name": "Gray Family",
+        "replacedates": false,
+        "usecache": true,
+        "username": "",
+        "password": "",
+        "calendar": "",
+        "pastWeeks": "0",
+        "futureWeeks": "4"
+    },
+    {
+        "id": "ae7bb482f9921645",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.1.21",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
