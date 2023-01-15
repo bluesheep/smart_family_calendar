@@ -8,29 +8,6 @@
         "env": []
     },
     {
-        "id": "acd4a96078b2b873",
-        "type": "group",
-        "z": "e504f309a60446d1",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "66aba38109734b70",
-            "b2671440e27de430",
-            "4d29cd28e4fc324f"
-        ],
-        "x": 594,
-        "y": 179,
-        "w": 532,
-        "h": 142
-    },
-    {
         "id": "45c5e6cc884a53b7",
         "type": "group",
         "z": "e504f309a60446d1",
@@ -48,8 +25,8 @@
             "b7b48464abc2131a",
             "91d87215d2f6da13"
         ],
-        "x": 574,
-        "y": -1,
+        "x": 554,
+        "y": 139,
         "w": 532,
         "h": 82
     },
@@ -77,8 +54,8 @@
             "36935c46a7592757",
             "2dc88a8ffdf47888"
         ],
-        "x": 1154,
-        "y": 239,
+        "x": 1114,
+        "y": 219,
         "w": 492,
         "h": 342
     },
@@ -103,11 +80,13 @@
             "1044ed1df3c5080d",
             "0bc1125326505fbb",
             "e4c811363278a343",
-            "0114c4f12ed13493"
+            "0114c4f12ed13493",
+            "91f551b17e353f58",
+            "b5fc61ab963f6197"
         ],
-        "x": 1994,
+        "x": 1914,
         "y": 459,
-        "w": 492,
+        "w": 572,
         "h": 282
     },
     {
@@ -157,13 +136,37 @@
             "331ecd9373815050",
             "dadb84acfae818e7"
         ],
-        "x": 1674,
-        "y": 319,
+        "x": 1614,
+        "y": 379,
         "w": 292,
         "h": 162
     },
     {
-        "id": "4b5d90fb152a8c70",
+        "id": "f360ec687a51a87b",
+        "type": "group",
+        "z": "e504f309a60446d1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4d29cd28e4fc324f",
+            "b2671440e27de430",
+            "66aba38109734b70",
+            "99da39c8fba03bdc"
+        ],
+        "x": 554,
+        "y": 239,
+        "w": 552,
+        "h": 142
+    },
+    {
+        "id": "9668bfe172d737d3",
         "type": "group",
         "z": "e504f309a60446d1",
         "style": {
@@ -185,39 +188,24 @@
             "97816fc4a2862da7",
             "5dd548917c8d5937",
             "7c7074a10f8ed9f6",
-            "fbae82d50c998862"
+            "e26ff09e71457a5e"
         ],
         "x": 14,
         "y": 59,
-        "w": 552,
+        "w": 532,
         "h": 362
-    },
-    {
-        "id": "fbae82d50c998862",
-        "type": "junction",
-        "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
-        "x": 540,
-        "y": 220,
-        "wires": [
-            [
-                "e10f50f9df54e803",
-                "4d29cd28e4fc324f",
-                "b2671440e27de430"
-            ]
-        ]
     },
     {
         "id": "2dc88a8ffdf47888",
         "type": "junction",
         "z": "e504f309a60446d1",
         "g": "1a6c2889823f13f5",
-        "x": 1620,
+        "x": 1580,
         "y": 500,
         "wires": [
             [
-                "36262b076890a3c4",
-                "331ecd9373815050"
+                "331ecd9373815050",
+                "3f7cb7c247616f5e"
             ]
         ]
     },
@@ -242,7 +230,33 @@
         "y": 600,
         "wires": [
             [
-                "36262b076890a3c4"
+                "3f7cb7c247616f5e"
+            ]
+        ]
+    },
+    {
+        "id": "99da39c8fba03bdc",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "g": "f360ec687a51a87b",
+        "x": 580,
+        "y": 280,
+        "wires": [
+            [
+                "4d29cd28e4fc324f",
+                "b2671440e27de430"
+            ]
+        ]
+    },
+    {
+        "id": "3f7cb7c247616f5e",
+        "type": "junction",
+        "z": "e504f309a60446d1",
+        "x": 1700,
+        "y": 600,
+        "wires": [
+            [
+                "b5fc61ab963f6197"
             ]
         ]
     },
@@ -250,7 +264,7 @@
         "id": "88c5d0a1ac1f9c12",
         "type": "inject",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "",
         "props": [
             {
@@ -280,7 +294,7 @@
         "id": "c34c0f7a44facfa2",
         "type": "change",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "Target is tomorrow",
         "rules": [
             {
@@ -300,7 +314,7 @@
         "y": 100,
         "wires": [
             [
-                "6697bb2dea4c6696"
+                "e26ff09e71457a5e"
             ]
         ]
     },
@@ -308,7 +322,7 @@
         "id": "cc2f4bbb99c0821d",
         "type": "inject",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "",
         "props": [
             {
@@ -339,7 +353,7 @@
         "id": "7aeb631b996b5dc8",
         "type": "delay",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "",
         "pauseType": "delay",
         "timeout": "5",
@@ -366,7 +380,7 @@
         "id": "6697bb2dea4c6696",
         "type": "moment",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "Timestamp to Date",
         "topic": "",
         "input": "timestamp",
@@ -384,7 +398,8 @@
         "y": 220,
         "wires": [
             [
-                "fbae82d50c998862"
+                "e10f50f9df54e803",
+                "99da39c8fba03bdc"
             ]
         ]
     },
@@ -392,7 +407,7 @@
         "id": "323ccf085deb4d38",
         "type": "change",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "Target is today",
         "rules": [
             {
@@ -420,7 +435,7 @@
         "id": "97816fc4a2862da7",
         "type": "delay",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "",
         "pauseType": "delay",
         "timeout": "30",
@@ -446,7 +461,7 @@
         "id": "5dd548917c8d5937",
         "type": "inject",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "",
         "props": [
             {
@@ -476,7 +491,7 @@
         "id": "7c7074a10f8ed9f6",
         "type": "api-call-service",
         "z": "e504f309a60446d1",
-        "g": "4b5d90fb152a8c70",
+        "g": "9668bfe172d737d3",
         "name": "Display Reload",
         "server": "5f63a71b.3efb08",
         "version": 1,
@@ -514,8 +529,8 @@
         "output": "payload",
         "outputType": "msg",
         "outTz": "Europe/London",
-        "x": 700,
-        "y": 40,
+        "x": 680,
+        "y": 180,
         "wires": [
             [
                 "b7b48464abc2131a"
@@ -526,7 +541,7 @@
         "id": "4d29cd28e4fc324f",
         "type": "ical-upcoming",
         "z": "e504f309a60446d1",
-        "g": "acd4a96078b2b873",
+        "g": "f360ec687a51a87b",
         "confignode": "56a457677c5bc15d",
         "timeout": "",
         "timeoutUnits": "days",
@@ -567,8 +582,8 @@
         "pastview": "1",
         "pastviewUnits": "days",
         "pastviewUnitstype": "pastviewUnits",
-        "x": 750,
-        "y": 220,
+        "x": 790,
+        "y": 280,
         "wires": [
             [
                 "b2671440e27de430"
@@ -579,7 +594,7 @@
         "id": "b2671440e27de430",
         "type": "trigger",
         "z": "e504f309a60446d1",
-        "g": "acd4a96078b2b873",
+        "g": "f360ec687a51a87b",
         "name": "15s Timeout for Calendar",
         "op1": "",
         "op2": "",
@@ -593,8 +608,8 @@
         "bytopic": "topic",
         "topic": "target",
         "outputs": 1,
-        "x": 810,
-        "y": 280,
+        "x": 790,
+        "y": 340,
         "wires": [
             [
                 "66aba38109734b70"
@@ -621,8 +636,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 890,
-        "y": 40,
+        "x": 870,
+        "y": 180,
         "wires": [
             [
                 "91d87215d2f6da13"
@@ -633,7 +648,7 @@
         "id": "66aba38109734b70",
         "type": "switch",
         "z": "e504f309a60446d1",
-        "g": "acd4a96078b2b873",
+        "g": "f360ec687a51a87b",
         "name": "Check Timeout",
         "property": "payload",
         "propertyType": "msg",
@@ -648,8 +663,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1020,
-        "y": 280,
+        "x": 1000,
+        "y": 340,
         "wires": [
             [
                 "1b13ca9373586619"
@@ -674,8 +689,8 @@
         "correl": "",
         "expiry": "",
         "broker": "ae7bb482f9921645",
-        "x": 1030,
-        "y": 40,
+        "x": 1010,
+        "y": 180,
         "wires": []
     },
     {
@@ -690,8 +705,8 @@
         "arraySpltType": "len",
         "stream": false,
         "addname": "",
-        "x": 1230,
-        "y": 280,
+        "x": 1190,
+        "y": 260,
         "wires": [
             [
                 "f6d01e9d1ab5c3b2"
@@ -720,7 +735,7 @@
         "reduceInitType": "",
         "reduceFixup": "",
         "x": 2100,
-        "y": 600,
+        "y": 500,
         "wires": [
             [
                 "342e2f7bd5586d15",
@@ -805,8 +820,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1430,
-        "y": 280,
+        "x": 1390,
+        "y": 260,
         "wires": [
             [
                 "b9cb8ccaa12e1ebb"
@@ -831,11 +846,11 @@
         "bytopic": "topic",
         "topic": "target",
         "outputs": 1,
-        "x": 1850,
-        "y": 400,
+        "x": 1790,
+        "y": 460,
         "wires": [
             [
-                "36262b076890a3c4"
+                "b5fc61ab963f6197"
             ]
         ]
     },
@@ -1067,8 +1082,8 @@
         "output": "eventStart_timestamp",
         "outputType": "msg",
         "outTz": "Europe/London",
-        "x": 1430,
-        "y": 320,
+        "x": 1390,
+        "y": 300,
         "wires": [
             [
                 "21f2cae54ef42f91"
@@ -1095,8 +1110,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1790,
-        "y": 440,
+        "x": 1730,
+        "y": 500,
         "wires": [
             [
                 "3f79c6ec58d8ac29"
@@ -1121,8 +1136,8 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 1790,
-        "y": 360,
+        "x": 1730,
+        "y": 420,
         "wires": [
             [
                 "3f79c6ec58d8ac29"
@@ -1150,8 +1165,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 2,
-        "x": 1490,
-        "y": 540,
+        "x": 1450,
+        "y": 520,
         "wires": [
             [
                 "2dc88a8ffdf47888"
@@ -1182,8 +1197,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 1450,
-        "y": 480,
+        "x": 1410,
+        "y": 460,
         "wires": [
             [
                 "2dc88a8ffdf47888"
@@ -1247,8 +1262,8 @@
         "output": "eventEnd_timestamp",
         "outputType": "msg",
         "outTz": "Europe/London",
-        "x": 1430,
-        "y": 360,
+        "x": 1390,
+        "y": 340,
         "wires": [
             [
                 "36935c46a7592757"
@@ -1273,8 +1288,8 @@
         "output": "eventEnd_date",
         "outputType": "msg",
         "outTz": "Europe/London",
-        "x": 1410,
-        "y": 440,
+        "x": 1370,
+        "y": 420,
         "wires": [
             [
                 "d289c88dac15287c",
@@ -1415,8 +1430,8 @@
         "output": "eventStart_date",
         "outputType": "msg",
         "outTz": "Europe/London",
-        "x": 1410,
-        "y": 400,
+        "x": 1370,
+        "y": 380,
         "wires": [
             [
                 "64bff6a12e323493"
@@ -1543,6 +1558,100 @@
         "wires": []
     },
     {
+        "id": "e26ff09e71457a5e",
+        "type": "moment",
+        "z": "e504f309a60446d1",
+        "g": "9668bfe172d737d3",
+        "name": "Set Timestamp+1d",
+        "topic": "",
+        "input": "timestamp",
+        "inputType": "msg",
+        "inTz": "Europe/London",
+        "adjAmount": "1",
+        "adjType": "days",
+        "adjDir": "add",
+        "format": "",
+        "locale": "C",
+        "output": "timestamp",
+        "outputType": "msg",
+        "outTz": "Europe/London",
+        "x": 330,
+        "y": 140,
+        "wires": [
+            [
+                "6697bb2dea4c6696"
+            ]
+        ]
+    },
+    {
+        "id": "b5fc61ab963f6197",
+        "type": "switch",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "Today/Tomorrow",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "today",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "tomorrow",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 2020,
+        "y": 600,
+        "wires": [
+            [
+                "36262b076890a3c4"
+            ],
+            [
+                "91f551b17e353f58"
+            ]
+        ]
+    },
+    {
+        "id": "91f551b17e353f58",
+        "type": "join",
+        "z": "e504f309a60446d1",
+        "g": "0965899628e08fb3",
+        "name": "Combine Events",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "3",
+        "count": "",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2100,
+        "y": 700,
+        "wires": [
+            [
+                "342e2f7bd5586d15",
+                "5b6f1bebe8e62583",
+                "8aed31b68454354a",
+                "1044ed1df3c5080d",
+                "0bc1125326505fbb",
+                "e4c811363278a343"
+            ]
+        ]
+    },
+    {
         "id": "5f63a71b.3efb08",
         "type": "server",
         "name": "Home Assistant"
@@ -1566,7 +1675,7 @@
         "id": "ae7bb482f9921645",
         "type": "mqtt-broker",
         "name": "",
-        "broker": "192.168.1.21",
+        "broker": "homeassistant.local",
         "port": "1883",
         "clientid": "",
         "autoConnect": true,
