@@ -21,6 +21,7 @@ A break down of my smart family calendar listing all the relevant parts and code
 
 ## Overall Design
 
+1. Put together the hardware
 1. Trigger the querying of the calendar
 2. Get the events and handle timeouts
 3. Process the events to identify those that are relevant for the day
@@ -28,9 +29,17 @@ A break down of my smart family calendar listing all the relevant parts and code
 5. Publish the values to MQTT
 6. Display updates with details
 
-![Combined](assets/NR-1-Total.png)
+## Physical Build
+
+Not a lot to say about this. It is literally just the driver board connected to the ribbon that came with it, and fed from the bottom of the display around the mount.
+
+![Physical Build](assets/Physical-Build.jpg)
 
 ## Node-Red
+
+![Combined](assets/NR-1-Total.png)
+
+Rather than try and recreate the images below, the flow is listed here as an asset - [Node-Red Flow](node-red/flow.json). For details on how to do this, the folks at Node-Red have a [useful guide](https://nodered.org/docs/user-guide/editor/workspace/import-export).
 
 ### Triggering 
 

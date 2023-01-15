@@ -2,8 +2,10 @@ esphome:
   name: hall-epaper
   
 external_components:
+  - source: "github://pr#3255"
     components:
       - display
+      - online_image
 
 esp32:
   board: esp32dev
@@ -19,7 +21,7 @@ api:
     key: !secret api_key
 
 ota:
-  password: !secret ota_password
+  password: <<SNIP>>
 
 wifi:
   ssid: !secret wifi_ssid
@@ -37,7 +39,7 @@ wifi:
 captive_portal:
 
 mqtt:
-  broker: 192.168.1.21
+  broker: homeassistant.local
   username: !secret mqtt_user
   password: !secret mqtt_pass
 
@@ -120,9 +122,9 @@ text_sensor:
   - platform: homeassistant
     entity_id: weather.dark_sky
     id: weather_state
-    on_value:
-      then:
-        - component.update: paper_screen
+    # on_value:
+    #   then:
+    #     - component.update: paper_screen
 
   - platform: mqtt_subscribe
     id: display_left
@@ -137,6 +139,12 @@ text_sensor:
     name: "Display Right"
     entity_category: "diagnostic"
     topic: /calendar/tomorrow/date
+
+  - platform: template
+    id: last_update
+    internal: false
+    name: "Last Update"
+    entity_category: "diagnostic"
 
   - platform: mqtt_subscribe
     id: today_1_start
@@ -323,9 +331,9 @@ sensor:
     entity_id: weather.mclaren_road
     attribute: temperature
     id: weather_temp
-    on_value:
-      then:
-        - component.update: paper_screen
+    # on_value:
+    #   then:
+    #     - component.update: paper_screen
 
 button:
   - platform: template
@@ -360,6 +368,12 @@ display:
     rotation: 0°
     lambda: |-
       // Map weather states to MDI characters.
+
+      char str[17];
+      time_t currTime = id(homeassistant_time).now().timestamp;
+      strftime(str, sizeof(str), "%Y-%m-%d %H:%M", localtime(&currTime));
+      id(last_update).publish_state(str);
+
       std::map<std::string, std::string> weather_icon_map
         {
           {"cloudy", "\U000F0590"},
@@ -452,4 +466,4 @@ display:
       it.printf(400 + 58, id(header_size) + id(row_height)*6 - id(row_height)/2, id(font_event_time),  TextAlign::TOP_RIGHT,   "%s", id(tomorrow_6_end).state.c_str());
       it.printf(400 + 66, id(header_size) + id(row_height)*6 - id(row_height)/2, id(font_event_entry), TextAlign::CENTER_LEFT, "%s", id(tomorrow_6_title).state.c_str());
 
-      it.strftime(790, 470, id(font_event_time), TextAlign::BOTTOM_RIGHT, "%H:%M", id(homeassistant_time).now());
+      it.printf(790,      470,                                                   id(font_event_time),  TextAlign::BOTTOM_RIGHT,"%s", id(last_update).state.c_str());
