@@ -7,6 +7,7 @@ A break down of my smart family calendar listing all the relevant parts and code
 ## Physical BOM
 
 * [7.5" E-Paper Raw Panel - Laminated Glass](https://thepihut.com/products/7-5-e-paper-raw-panel-fully-laminated-800x480)
+* [ESP32 Universal e-Paper Driver Board](https://thepihut.com/products/esp32-universal-e-paper-driver-board)
 * [Universal e-Paper Raw Panel Driver Hat](https://thepihut.com/products/universal-e-paper-raw-panel-driver-hat)
 * [Ikea Ribba Photo Frame 13x18](https://www.ikea.com/gb/en/p/ribba-frame-white-70378414/#content)
 
