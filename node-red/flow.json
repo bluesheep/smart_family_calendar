@@ -838,7 +838,7 @@
         "op2": "",
         "op1type": "nul",
         "op2type": "pay",
-        "duration": "5",
+        "duration": "15",
         "extend": true,
         "overrideDelay": false,
         "units": "s",
@@ -1589,7 +1589,7 @@
         "z": "e504f309a60446d1",
         "g": "0965899628e08fb3",
         "name": "Today/Tomorrow",
-        "property": "topic",
+        "property": "target",
         "propertyType": "msg",
         "rules": [
             {
